@@ -1,3 +1,7 @@
+/*
+INPUT:{44,72,58,30,65,51}
+OUTPUT:37
+    */
 package helloworld;
 import java.util.*;
 public class Zoho
