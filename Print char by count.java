@@ -10,15 +10,15 @@ NUMBER RANGE FROM 1 TO 99
 */
 public class Printcharbycount{
   public static void main(String[] args){
-    String s="B3C6D15";
+    String s="B3C6D11";
     char cursor=s.charAt(0);
     int i=0,j,num=0,next;
     do{
       if(num ==0)
       {
-        cursor=s.charAt(i);
-        if(cursor=='\0')
+        if(i>s.length()-1)
         break;
+        cursor=s.charAt(i);
         j=i+1;
         next=i+2;
         if(s.charAt(next)<58 && s.charAt(next)>47){
